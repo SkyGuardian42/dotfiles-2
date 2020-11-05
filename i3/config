@@ -161,7 +161,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-bindsym $mod+c exec "chromium"
+bindsym $mod+c exec "google-chrome"
+bindsym $mod++shift+v exec --no-startup-id "code"
+
 
 bindsym $mod+Shift+l exec "i3lock-fancy"
 
