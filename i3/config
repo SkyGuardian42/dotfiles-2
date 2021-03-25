@@ -155,6 +155,8 @@ mode "resize" {
         # center floating window
         bindsym c move position center
 
+        # resize to look nice
+        bindsym n resize set width 35 ppt height 60 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
